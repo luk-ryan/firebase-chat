@@ -1,15 +1,15 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { ActivityIndicator, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Home = () => {
+const StartPage = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Home</Text>
+            <ActivityIndicator size="large" color="gray" />
         </View>
     )
 }
 
-export default Home
+export default StartPage
 
 const styles = StyleSheet.create({
     container: {
